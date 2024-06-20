@@ -172,3 +172,59 @@ html{
     height: 402px;
     border-radius: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.nomer{
+    margin-top: 150px;
+}
+.nomer .container{
+    display: flex;
+    flex-direction: column;
+}
+.nomer .container .big{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.nomer .container .robot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomer .container .robot .n1 h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    width: 60px;
+    text-align: center;
+}
+.nomer .container .robot .n1 h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+
+
+
