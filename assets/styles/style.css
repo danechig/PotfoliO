@@ -25,6 +25,14 @@ html{
 }
 
 
+
+
+
+
+
+
+
+
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -97,4 +105,70 @@ html{
 .header .container{
     height: 60px;
     margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+.babytab{
+    background-color: #000000;
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.babytab .container{
+    display: flex;
+    justify-content: space-between;
+}
+.babytab .container .bebebebebe h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.babytab .container .bebebebebe h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.babytab .container .bebebebebe .more{
+    width: 252px;
+    height: 58px;
+    background-color: #ffffff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 60px;
+}
+.babytab .container .bebebebebe .more:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+.babytab .container .bay{
+    display: flex;
+   
+}
+.babytab .container .bay .womanbabytab{
+    margin-top: 40px;
+    background: url(../img/лицо.jpg);
+    width: 560px;
+    height: 402px;
+    border-radius: 25px;
 }
