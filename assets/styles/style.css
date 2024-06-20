@@ -166,12 +166,14 @@ html{
     display: flex;
    
 }
-.babytab .container .bay .womanbabytab{
+.babytab .container .bay .womanbabytab {
     margin-top: 40px;
-    background: url(../img/лицо.jpg);
-    width: 560px;
-    height: 402px;
+    background: url(../img/я\ .jpg);
+    width: 640px;
+    height: 828px;
     border-radius: 25px;
+    margin-top: -128px;
+    margin-left: 13px;
 }
 
 
@@ -260,20 +262,21 @@ html{
    color: white;
 }
 .seria .container .nova_seson .costumchikiki .costumchiki{
-    background: url(../img);
+    background: url(../img/abnkfqy.jpg);
     height: 485px;
     width: 365px;
 }
 
 .seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
-    background: url(../img);
+    background: url(../img/монохром.jpg);
     height: 210px;
     width: 370px;
 }
 .seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
-    background: url(../img/);
+    background: url(../img/лай\ тв.jpg);
     height: 210px;
     width: 370px;
+    object-fit: cover;
 }
 .seria .container .nova_seson .costumchikiftz .costumchiki4{
     background: url(../img/);
@@ -1066,10 +1069,14 @@ html{
         justify-content: center;
         width: 280px;
     }
-    .babytab .container .bay .womanbabytab{
-        width: 280px;
-        background-position-x: -60px;
-    }
+    .babytab .container .bay .womanbabytab {
+    margin-top: 40px;
+    background: url(../img/я\ .jpg);
+    width: 640px;
+    height: 613px;
+    border-radius: 25px;
+    margin-top: -202px;
+}
     .nomer .container {
         display: flex;
         flex-direction: column;
