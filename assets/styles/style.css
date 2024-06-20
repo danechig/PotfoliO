@@ -1,1 +1,100 @@
 @import url(./fonts.css);
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+    background-color: black;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+html{
+    background: rgb(233, 233, 233);
+    background: linear-gradient(90deg, rgba(240,243,245,1) 0%, rgba(230,235,240,1) 100%);
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .container .portal .portal-click{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 800;
+ 
+
+}
+
+.header .container .portal a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header .container .iocnki .icci .fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-magnifying-glass{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .iocnki .icci{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    MARGIN-LEFT: 33px;
+    
+   
+}
+.header .container .iocnki .icci .fa-cart-shopping{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-cart-shopping{
+    color: #3f85eed3;
+    transition: .3s;
+    
+}
+.header .container .iocnki .icci .fa-user{
+    color: rgb(0, 0, 0);
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-user{
+    color: #3f85eed3;
+    transition: .3s;
+    
+}
+.header .container .iocnki{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
