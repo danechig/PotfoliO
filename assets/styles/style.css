@@ -66,13 +66,11 @@ html{
     transition: .3s;
     
 }
-.header .container .iocnki .icci{
-    background-color: white;
+.header .container .iocnki .icci {
+    background-color: #38bee4;
     padding: 10px;
     border-radius: 30px;
-    MARGIN-LEFT: 33px;
-    
-   
+    margin-left: 33px;
 }
 .header .container .iocnki .icci .fa-cart-shopping{
     color: black;
@@ -133,7 +131,7 @@ html{
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: white;
+    color: #38bee4;
 }
 .babytab .container .bebebebebe h3{
     font-family: 'Manrope';
@@ -144,12 +142,12 @@ html{
 .babytab .container .bebebebebe .more{
     width: 252px;
     height: 58px;
-    background-color: #ffffff;
+    background-color: #38bee4;
     font-family: 'Manrope';
     font-size: 16px;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    border: 1px solid #ffffff;
+    border: 1px solid #38bee4;
     border-radius: 9px;
     transition: .5s;
     margin-top: 60px;
@@ -198,7 +196,7 @@ html{
     font-size: 42px;
     font-weight: 700;
     text-align: center;
-    color: white;
+    color: #38bee4;
 }
 .nomer .container .robot{
     display: flex;
@@ -239,7 +237,7 @@ html{
     font-weight: 500;
    font-size: 74px;
     margin-bottom: 0;
-    color: white;
+    color: #38bee4;
 }
 .seria .container .zima{
     font-family: 'Netural';
@@ -249,7 +247,7 @@ html{
     display: flex;
     justify-content: end;
     margin-bottom: 55px;
-    color: white;
+    color: #38bee4;
 }
 
 .seria .container .nova_seson{
@@ -308,7 +306,7 @@ html{
     font-size: 42px;
     font-weight: 700;
    text-align: center;
-   color: white;
+   color: #38bee4;
 }
 
 .maygad .container .vibing{
@@ -464,7 +462,7 @@ html{
 }
 .zvonok .container h3{
     font-family: 'Manrope';
-   font-size: 12px;
+    font-size: 12px;
     font-weight: 500;
     color: #fafafa;
 }
