@@ -469,7 +469,7 @@ html{
 .zvonok .container .icon {
     display: flex;
     align-items: center;
-    margin-left: 437px;
+    margin-left: 1180px;
 }
 .zvonok .container .fa-vk{
     color: #fafafa;
@@ -862,8 +862,8 @@ html{
         width: 142px;
         margin-top: 0;
     }
-    .maygad .container .vibing .frst .yo{
-        font-size: 16px;
+    .maygad .container .vibing .frst .yo {
+        font-size: 5px;
         margin-top: 20px;
     }
     .maygad .container .vibing .scnd{
@@ -877,7 +877,7 @@ html{
         margin-top: 0;
     }
     .maygad .container .vibing .scnd .ras{
-        font-size: 16px;
+        font-size: 5px;
         margin-top: 20px;
     }
     .maygad .container .vibing .thd{
@@ -890,7 +890,7 @@ html{
         margin-top: 0;
     }
     .maygad .container .vibing .thd .hiit{
-        font-size: 16px;
+        font-size: 5px;
     }
     .maygad .container .btn .all{
         width: 230px;
