@@ -9,6 +9,7 @@ body{
     padding: 0;
     font-family: 'Manrope' sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
 
@@ -459,7 +460,7 @@ html{
 .zvonok .container .icon {
     display: flex;
     align-items: center;
-    margin-left: 510px;
+    margin-left: 437px;
 }
 .zvonok .container .fa-vk{
     color: #fafafa;
@@ -625,7 +626,7 @@ html{
     font-family: 'Manrope';
     font-size: 16px;
     font-weight: 600;
-    color: black;
+    color: rgb(0, 0, 0);
     background: none;
     border: 1px solid rgb(216, 216, 216);
     border-radius: 9px;
@@ -636,3 +637,620 @@ html{
     color: white;
     transition: .5s;
 }
+
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    
+    .nomer {
+        margin-top: 50px;
+    }
+    .nomer .container .robot{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .nomer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .babytab .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .babytab .container .bebebebebe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .babytab .container .bebebebebe h3{
+        text-align: center;
+    }
+    .babytab{
+        padding-top: 50px;
+    }
+    
+    .maygad .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .maygad{
+        margin-top: 50px;
+    }
+    .maygad .container .vibing{
+        margin-top: 30px;
+    }
+    .maygad .container .vibing .frst,
+    .maygad .container .vibing .scnd,
+    .maygad .container .vibing .thd{
+        width: 300px !important;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Адаптация*/
+
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .resepshen .container .naminal{
+        width: calc(100%/1.3);
+    }
+    .resepshen .container .em{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .our{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .check{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .agree{
+        width: calc(100%/1.3) !important;
+    }
+    .nomer .container .robot{
+        width: 70%;
+    }
+    
+
+    .maygad .container .vibing{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .maygad .container .vibing .frst{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .maygad .container .vibing .scnd{
+        margin-left: 10px;
+    }
+    .header .container .portal a{
+        margin-right: 10px !important;
+    }
+    .header .container .iocnki{
+        width: calc(100%/6);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    
+    .resepshen .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .resepshen .container .resepshen1{
+        text-align: center;
+        line-height: 40px;
+    }
+    .resepshen .container .opisanie{
+        text-align: center;
+        font-size: 16px;
+    }
+    .resepshen .container .naminal{
+        width: calc(100%/1.08);
+    }
+    .resepshen .container .em{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .our{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .check{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .agree{
+        width: calc(100%/1.08) !important;  
+    }
+    .nomer .container .robot{
+        width: 90%;
+    }
+    
+    .babytab{
+        margin-top: 50px;
+    }
+    .fresh .container .freshtry .text{
+        width: calc(100%/2.2);
+        padding-top: 50px;
+    }
+    .maygad .container .vibing .frst{
+        margin-right: 0;
+    }
+    .maygad .container .vibing .scnd{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    
+    
+    .maygad .container .vibinar{
+        font-size: 32px;
+    }
+   
+    .maygad .container .vibing .frst{
+        width: 200px !important;
+        height: 240px !important;
+        margin-right: 10px;
+    }
+    .maygad .container .vibing .frst .woman-yo{
+        height: 181px !important;
+        width: 142px;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .frst .yo{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .maygad .container .vibing .scnd{
+        width: 200px !important;
+        height: 240px !important;
+        margin-left: 10px;
+    }
+    .maygad .container .vibing .scnd .woman-ras{
+        width: 172px !important;
+        height: 171px !important;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .scnd .ras{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .maygad .container .vibing .thd{
+        width: 200px !important;
+        height: 240px !important;
+    }
+    .maygad .container .vibing .thd .woman-hiit{
+        width: 152px !important;
+        height: 197px !important;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .thd .hiit{
+        font-size: 16px;
+    }
+    .maygad .container .btn .all{
+        width: 230px;
+        height: 50px;
+    }
+    .maygad{
+        margin-bottom: 100px;
+    }
+    
+    .babytab .container .bebebebebe h2{
+        font-size: 32px;
+    }
+    .babytab .container .bebebebebe h3{
+        font-size: 16px;
+    }
+    .babytab .container .bebebebebe .more{
+        width: 230px;
+        height: 50px;
+    }
+    .babytab .container .bay{
+        width: 450px;
+    }
+    .nomer .container .big{
+        font-size: 32px;
+    }
+    .nomer .container .robot h2{
+        font-size: 12px !important;
+    }
+    .nomer .container .robot h3{
+        font-size: 16px !important;
+    }
+    .nomer .container .robot h4{
+        font-size: 12px !important;
+    }
+    .resepshen .container .resepshen1{
+        font-size: 32px;
+    }
+    .resepshen .container .opisanie{
+        font-size: 13px;
+    }
+    .resepshen .container .naminal {
+        width: calc(100%/1.1);
+    }
+    .resepshen .container .naminal .name input{
+        width: 190px;
+    }
+    .resepshen .container .naminal .tel input{
+        width: 190px;
+    }
+    .resepshen .container .naminal h3{
+        font-size: 12px !important;
+    }
+    .resepshen .container .em h3{
+        font-size: 12px !important;
+    }
+    .resepshen .container .our{
+        font-size: 12px !important;
+    }
+    .resepshen .container .check label{
+        font-size: 12px !important;
+    }
+    .resepshen .container .agree label{
+        font-size: 12px !important;
+    }
+    .resepshen .container .continue{
+        width: 230px;
+        height: 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header .container{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .header .container .logotype img{
+        width: 69px;
+        height: 13px;
+    }
+    .header .container .portal .portal-click{
+        font-size: 10px !important;
+    }
+    .header .container .portal{
+        width: calc(100%/2.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header .container .portal .portal-click:nth-child(3){
+        margin-right: 0 !important;
+    }
+    .header .container .iocnki{
+        width: calc(100%/4.7);
+    }
+    
+    .maygad .container{
+        padding: 0;
+    }
+    .maygad .container .vibinar{
+        font-size: 22px;
+    }
+    
+    .maygad .container .vibing .frst{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .frst .woman-yo{
+        height: 150px !important;
+        width: 117px;
+        margin-top: 5px;
+    }
+    .maygad .container .vibing .frst .yo{
+        margin-top: 5px;
+    }
+    .maygad .container .vibing .scnd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .scnd .woman-ras{
+        width: 123px !important;
+        height: 123px !important;
+        margin-top: 10px;
+    }
+    .maygad .container .vibing .scnd .ras{
+        margin-top: 20px;
+    }
+
+    .maygad .container .vibing .thd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .thd .woman-hiit{
+        width: 115px !important;
+        height: 155px !important;
+        margin-top: 10px;
+    }
+    .maygad .container .vibing .scnd .ras{
+        margin-top: 20px;
+    }
+    .maygad .container .btn .all{
+        width: 200px;
+        height: 45px;
+    }
+    
+    .babytab{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .babytab .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .babytab .container .bebebebebe h2{
+        font-size: 22px;
+    }
+    .babytab .container .bebebebebe h3{
+        font-size: 14px;
+    }
+    .babytab .container .bebebebebe .more{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .babytab .container .bay{
+        display: flex;
+        justify-content: center;
+        width: 280px;
+    }
+    .babytab .container .bay .womanbabytab{
+        width: 280px;
+        background-position-x: -60px;
+    }
+    .nomer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nomer .container .big{
+        font-size: 22px;
+    }
+    .nomer .container .robot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nomer .container .robot h2,h3,h4{
+        text-align: center !important;
+    }
+    .nomer .container .robot h2{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .resepshen .container{
+        padding-top: 50px;
+    }
+    .resepshen .container .resepshen1{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .resepshen .container .opisanie{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .resepshen .container .naminal{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .resepshen .container .naminal .name{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .naminal .name input{
+        width: 100%;
+    }
+    .resepshen .container .naminal .tel{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .naminal .tel input{
+        width: 100%;
+    }
+    .resepshen .container .em{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .em input{
+        width: 100%;
+    }
+    .resepshen .container .our{
+        display: flex;
+        justify-content: startt;
+    }
+    .resepshen .container .check{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .continue{
+        width: 200px !important;
+    }
+
+    .zvonok .container .icon{
+        margin-left:3px;
+
+    }
+    
+
+    @media (max-width: 1200px) {
+        .container{
+            width: 992px;
+        }
+    
+        
+    
+        .seria .container .nova_seson{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .seria .container .nova_seria{
+           font-size: 54px;
+            margin-left: 80px;
+        }
+        .seria .container .zima{
+           font-size: 54px;
+            margin-right: 80px;
+        }
+        
+    }
+    
+  
+    
+    @media (max-width: 768px) {
+        .container{
+            width:  576px;
+        }
+    
+        .zvonok .container{
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            align-items: center;
+        }
+        
+        .seria .container .nova_seria{
+           font-size: 34px;
+        }
+        .seria .container .zima{
+           font-size: 34px;
+        }
+        
+    }
+    
+    @media (max-width: 576px) {
+        .container{
+            width:  480px;
+        }
+        
+        .seria{
+            margin-top: 40px !important;
+        }
+        
+    }
+    
+    
+    @media (max-width: 480px) {
+        .container{
+            width:  98%;
+        }
+        
+        
+        .seria .container .nova_seria{
+           font-size: 18px !important;
+            text-align: center;
+            margin-left: 0 !important;
+        }
+        .seria .container .zima{
+           font-size: 18px !important;
+            justify-content: center;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .seria .container .nova_seson .costumchikiki .costumchiki{
+            width: 260px !important;
+            height: 350px !important;
+            background-position-x: -80px;
+        }
+        .seria .container .nova_seson .costumchikiki h2{
+           font-size: 16px !important;
+        }
+        .seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
+            width: 260px !important;
+        }
+        .seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
+            width: 260px !important;
+        }
+        .seria .container .nova_seson .costumchikidssss-thrd h2{
+           font-size: 16px !important;
+        }
+        .seria .container .nova_seson .costumchikiftz .costumchiki4{
+            width: 260px !important;
+        }
+        .seria .container .nova_seson .costumchikiftz h2{
+           font-size: 16px !important;
+        }
+        
+    }
