@@ -228,3 +228,54 @@ html{
 
 
 
+.seria{
+    margin-top: 165px;
+}
+.seria .container .nova_seria{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 74px;
+    margin-bottom: 0;
+    color: white;
+}
+.seria .container .zima{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 74px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+    color: white;
+}
+
+.seria .container .nova_seson{
+    display: flex;
+    justify-content: space-between;
+}
+.seria .container .nova_seson h2{
+    font-family: 'Manrope';
+   font-size: 22px;
+   color: white;
+}
+.seria .container .nova_seson .costumchikiki .costumchiki{
+    background: url(../img);
+    height: 485px;
+    width: 365px;
+}
+
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
+    background: url(../img);
+    height: 210px;
+    width: 370px;
+}
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
+    background: url(../img/);
+    height: 210px;
+    width: 370px;
+}
+.seria .container .nova_seson .costumchikiftz .costumchiki4{
+    background: url(../img/);
+    height: 485px;
+    width: 365px;
+}
