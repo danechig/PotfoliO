@@ -235,7 +235,7 @@ html{
     margin-top: 165px;
 }
 .seria .container .nova_seria{
-    font-family: 'Netural';
+    font-family: 'Manrope';
     font-weight: 500;
    font-size: 74px;
     margin-bottom: 0;
@@ -260,28 +260,34 @@ html{
     font-family: 'Manrope';
    font-size: 22px;
    color: white;
+   text-align: center;
 }
-.seria .container .nova_seson .costumchikiki .costumchiki{
-    background: url(../img/abnkfqy.jpg);
+.seria .container .nova_seson .costumchikiki .costumchiki {
+    background: url(../img/abnkfqy\ .png);
     height: 485px;
     width: 365px;
+    background-size: contain;
+    
 }
 
-.seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki2 {
     background: url(../img/монохром.jpg);
     height: 210px;
     width: 370px;
+    background-size: cover;
 }
-.seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki3 {
     background: url(../img/лай\ тв.jpg);
     height: 210px;
     width: 370px;
-    object-fit: cover;
+    object-fit: contain;
+    background-size: contain;
 }
-.seria .container .nova_seson .costumchikiftz .costumchiki4{
-    background: url(../img/);
+.seria .container .nova_seson .costumchikiftz .costumchiki4 {
+    background: url(../img/кипр.png);
     height: 485px;
     width: 365px;
+    background-size: cover;
 }
 
 
@@ -332,22 +338,21 @@ html{
 
 
 
-.maygad .container .vibing .frst .woman-yo{
-    background: url(../img);
-    width: 186px;
-    height: 238px;
+.maygad .container .vibing .frst .woman-yo {
+    background: url(../img/kjuj\ YUR.png);
+    width: 235px;
+    height: 243px;
     margin-top: 10px;
     background-size: cover;
     background-position: center;
-    
 }
-.maygad .container .vibing .frst .yo{
+.maygad .container .vibing .frst .yo {
     font-family: 'Manrope';
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    text-align: center;
 }
 
 .maygad .container .vibing .scnd{
@@ -369,18 +374,19 @@ html{
     transition: .3s;
 }
 .maygad .container .vibing .scnd .woman-ras{
-    background: url(../img/);
+    background: url(../img/SQL.jpg);
     width: 238px;
     height: 238px;
     margin-top: 10px;
     background-size: cover;
     background-position: center;
 }
-.maygad .container .vibing .scnd .ras{
+.maygad .container .vibing .scnd .ras {
     font-family: 'Manrope';
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
 }
 .maygad .container .vibing .thd{
     width: 360px;
@@ -400,19 +406,20 @@ html{
     scale: 1.1;
     transition: .3s;
 }
-.maygad .container .vibing .thd .woman-hiit{
-    background: url(../img);
-    width: 186px;
+.maygad .container .vibing .thd .woman-hiit {
+    background: url(../img/[nbk.png);
+    width: 282px;
     height: 238px;
     margin-top: 10px;
     background-size: cover;
     background-position: center;
 }
-.maygad .container .vibing .thd .hiit{
+.maygad .container .vibing .thd .hiit {
     font-family: 'Manrope';
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
 }
 .maygad .container .btn .all{
     width: 252px;
@@ -448,11 +455,12 @@ html{
 .zvonok{
     background-color: black;
 }
-.zvonok .container{
+.zvonok .container {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-left: 19px;
 }
 .zvonok .container h3{
     font-family: 'Manrope';
