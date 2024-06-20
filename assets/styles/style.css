@@ -279,3 +279,360 @@ html{
     height: 485px;
     width: 365px;
 }
+
+
+
+
+.maygad{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.maygad .container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.maygad .container .vibinar{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+   color: white;
+}
+
+.maygad .container .vibing{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+
+.maygad .container .vibing .frst{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .frst:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+
+
+
+.maygad .container .vibing .frst .woman-yo{
+    background: url(../img);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.maygad .container .vibing .frst .yo{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.maygad .container .vibing .scnd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .scnd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.maygad .container .vibing .scnd .woman-ras{
+    background: url(../img/);
+    width: 238px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.maygad .container .vibing .scnd .ras{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maygad .container .vibing .thd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .thd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.maygad .container .vibing .thd .woman-hiit{
+    background: url(../img);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.maygad .container .vibing .thd .hiit{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maygad .container .btn .all{
+    width: 252px;
+    height: 58px;
+    background:none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 75px;
+}
+.maygad .container .btn .all:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.maygad .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+
+
+.zvonok{
+    background-color: black;
+}
+.zvonok .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.zvonok .container h3{
+    font-family: 'Manrope';
+   font-size: 12px;
+    font-weight: 500;
+    color: #fafafa;
+}
+.zvonok .container .icon {
+    display: flex;
+    align-items: center;
+    margin-left: 510px;
+}
+.zvonok .container .fa-vk{
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+    
+}
+.zvonok .zvonok .bi-facebook{
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+}
+.zvonok .container a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.resepshen{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.resepshen .container{
+    background: rgb(230,235,240);
+    background: linear-gradient(90deg, rgba(230,235,240,1) 0%, rgba(240,243,245,1) 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.resepshen .container .resepshen1{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resepshen .container .opisanie{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.resepshen .container .naminal{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/2.2);
+    margin-bottom: 15px;
+}
+.resepshen .container .naminal h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resepshen .container .naminal input{
+    width: 250px;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.resepshen .container .em{
+    width: calc(100%/2.2);
+}
+.resepshen .container .em .mail{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resepshen .container .em input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.resepshen .container .our{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: calc(100%/2.2);
+    margin-top: 25px;
+}
+.resepshen .container .check{
+    display: flex;
+    width: calc(100%/2.2);
+    margin-bottom: 30px;
+    align-items: center;
+}
+.resepshen .container .check label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.resepshen .container .check input{
+    margin-left: 0;
+    margin-right: 0;
+    height: 15px;
+    width: 15px;
+}
+.resepshen .container .check .frst{
+    display: flex;
+    align-items: center;
+}
+
+.resepshen .container .check .scnd{
+    display: flex;
+    align-items: center;
+    
+}
+.resepshen .container .check .thd{
+    display: flex;
+    align-items: center;
+}
+
+.resepshen .container .agree{
+    width: calc(100%/2.2);
+}
+.resepshen .container .agree input{
+    margin-left: 0;
+    height: 15px;
+    width: 15px;
+}
+.resepshen .container .agree label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.resepshen .container .agree{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.resepshen .container .continue{
+    width: 252px;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 9px;
+    transition: .5s;
+}
+.resepshen .container .continue:hover{
+    background-color: #3586ff;
+    color: white;
+    transition: .5s;
+}
